@@ -358,12 +358,12 @@ li::marker {
     left: 1px;
   }
   .skills{
-    gap: 95px;
     width: 385px;
     height: 647px;
     position: relative;
-    top:  121px;
+    top: 121px;
     flex-direction: column;
+    align-items: flex-start;
   }
   #card1,#card2,#card3, #card4, #card5{
     height: 165px;
@@ -382,7 +382,7 @@ li::marker {
   .skills-card2{
     position: relative;
     left: 81px;
-    top: -54px;
+    top: -22px;
     height: 220px;
   }
   #barra-skills{
@@ -393,11 +393,11 @@ li::marker {
   }
   .contatos1{
     width: 100%;
-    height: 506px;
+    height: 676px;
     box-shadow: 0px 0px 0px black;
   }
   .contatos2{
-    height: 637px;
+    height: 432px;
     box-shadow: 0px 0px 0px black;
   }
   .cards2{
@@ -405,16 +405,18 @@ li::marker {
     gap: 35px;
     right: 10px;
     padding: 0px;
-    top: 179px;
+    top: 11px;
     flex-direction: column;
     left: -7px;
+    align-items: center;
   }
   .cards1{
-    width: 261px;
+    width: 100%;
     gap: 35px;
+    padding: 0px;
+    top: -11px;
     flex-direction: column;
-    top: -56px;
-    left: 33px;
+    align-items: center;
   }
   .fixado{
     position: relative;
