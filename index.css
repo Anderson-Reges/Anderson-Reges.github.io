@@ -360,6 +360,7 @@ li::marker {
   .skills{
     gap: 95px;
     width: 385px;
+    height: 647px;
     position: relative;
     top:  121px;
     flex-direction: column;
@@ -376,16 +377,19 @@ li::marker {
   .skills-card1{
     position: relative;
     left: 81px;
+    height: 281px;
   }
   .skills-card2{
     position: relative;
     left: 81px;
-    top: -93px;
-        height: 0px;
+    top: -54px;
+    height: 220px;
   }
   #barra-skills{
-    left: 32px;
+    left: 10%;
     width: 349px;
+    height: 23px;
+    
   }
   .contatos1{
     width: 100%;
@@ -408,7 +412,6 @@ li::marker {
   .cards1{
     width: 261px;
     gap: 35px;
-    right: 10px;
     flex-direction: column;
     top: -56px;
     left: 33px;
