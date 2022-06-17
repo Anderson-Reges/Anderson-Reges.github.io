@@ -4,9 +4,9 @@ body {
 }
 .menu {
   width: 100%;
-    height: 415px;
-    display: flex;
-    justify-content: center;
+  height: 415px;
+  display: flex;
+  justify-content: center;
 }
 #foto {
   width: 357px;
@@ -80,16 +80,16 @@ body {
 }
 .contatos1 h2 {
   color: red;
-    font-family: Montserrat, sans-serif;
-    font-weight: 900;
-    text-align: center;
-    font-size: xx-large;
-    position: relative;
-    top: -17px;
-    padding-top: 17px;
-    background-color: #e5e5e5;
+  font-family: Montserrat, sans-serif;
+  font-weight: 900;
+  text-align: center;
+  font-size: xx-large;
+  position: relative;
+  top: -17px;
+  padding-top: 17px;
+  background-color: #e5e5e5;
 }
-#barra{
+#barra {
   width: 25%;
   height: 14px;
   background-color: red;
@@ -167,60 +167,60 @@ h3 {
   position: relative;
   top: 39px;
 }
-.skills{
+#card3 h3{
+  font-size: 16px;
+}
+.skills {
   display: flex;
   justify-content: center;
   gap: 180px;
   height: 294px;
 }
-li{
+li {
   padding: 8px;
   font-weight: 900;
 }
-li::marker{
+li::marker {
   color: red;
 }
-.skills-card1{
+.skills-card1 {
   width: 264px;
   height: 200px;
   display: inline-block;
   text-align: center;
   border-radius: 10px;
   font-family: Montserrat, sans-serif;
-  
 }
-.skills-card1 h2{
+.skills-card1 h2 {
   color: red;
   font-weight: 900;
   text-align: center;
   font-size: xx-large;
   position: relative;
 }
-#barra-skills{
+#barra-skills {
   width: 16px;
-    height: 306px;
-    background-color: red;
-    position: relative;
-    border-radius: 10px;
+  height: 306px;
+  background-color: red;
+  position: relative;
+  border-radius: 10px;
 }
-.skills-card2{
+.skills-card2 {
   width: 264px;
   height: 200px;
   display: inline-block;
   text-align: center;
   border-radius: 10px;
   font-family: Montserrat, sans-serif;
-  
 }
-.skills-card2 h2{
+.skills-card2 h2 {
   color: red;
   font-weight: 900;
   text-align: center;
   font-size: xx-large;
   position: relative;
-  
 }
-.fixado{
+.fixado {
   display: flex;
   position: fixed;
   flex-direction: column;
@@ -230,19 +230,19 @@ li::marker{
 }
 .fixado1 {
   background-color: red;
-    border-radius: 15px;
-    width: 10px;
-    height: 107px;
+  border-radius: 15px;
+  width: 10px;
+  height: 107px;
 }
-.fixado-nome{
+.fixado-nome {
   color: red;
-    font-family: Montserrat, sans-serif;
-    transform: rotate(270deg);
-    position: relative;
-    bottom: 43px;
-    font-weight: 900;
+  font-family: Montserrat, sans-serif;
+  transform: rotate(270deg);
+  position: relative;
+  bottom: 43px;
+  font-weight: 900;
 }
-.rodape{
+.rodape {
   display: flex;
   justify-content: center;
   height: 50px;
@@ -251,3 +251,171 @@ li::marker{
   box-shadow: -2px 8px 16px 0px black;
   position: relative;
 }
+@media (max-width: 1024px) {
+  .cards1 {
+    gap: 68px;
+  }
+  .fixado {
+    left: -35px;
+  }
+  #nome {
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    left: -14px;
+  }
+  #foto {
+    padding-right: 30px;
+  }
+  #sobre {
+    padding: 62px;
+    position: relative;
+    bottom: 45px;
+  }
+  .rodape {
+    gap: 466px;
+    height: 63px;
+  }
+  .skills {
+    gap: 119px;
+  }
+  #card3 h3{
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+  #foto {
+    width: 269px;
+  }
+  #sobre {
+    bottom: 68px;
+    font-size: 14px;
+  }
+  .cards1{
+    gap: 18px;
+    padding: 43px;
+    top: -57px;
+  }
+  .skills{
+    gap: 56px;
+  }
+  .rodape{
+    gap: 253px;
+    height: 63px;
+  }
+  .contatos1{
+    height: 325px;
+  }
+}
+@media (max-width: 425px){
+  .main{
+    width: 100%;
+  }
+  .cabecalho{
+    width: 100%;
+    margin: 0px;
+  }
+  .menu{
+    height: 667px;
+    flex-direction: column;
+    width: 100%;
+  }
+  #nome{
+    font-size: 14px;
+    width: 100%;
+    left: -69px;
+  }
+  #linha{
+    top: 34px;
+    left: -89px;
+  }
+  #foto{
+    width: 304px;
+    position: relative;
+    top: -147px;
+    left: 39px;
+  }
+  #sobre{
+    position: relative;
+    bottom: -303px;
+    padding: 0px;
+    max-width: 93%;
+    left: 16px;
+  }
+  .rodape{
+    position: relative;
+    top: 444px;
+    gap: 27px;
+    height: 50px;
+    width: 100%;
+    position: relative;
+    top: 444px;
+    font-family: Montserrat, sans-serif;
+  }
+  .rodape p{
+    font-size: 10px;
+    position: relative;
+    left: 1px;
+  }
+  .skills{
+    gap: 95px;
+    width: 385px;
+    position: relative;
+    top:  121px;
+    flex-direction: column;
+  }
+  #card1,#card2,#card3, #card4, #card5{
+    height: 165px;
+  }
+  #card3 h3{
+    font-size: 16px;
+  }
+  #card1 h3{
+    font-size: 16px;
+  }
+  .skills-card1{
+    position: relative;
+    left: 81px;
+  }
+  .skills-card2{
+    position: relative;
+    left: 81px;
+    top: -93px;
+        height: 0px;
+  }
+  #barra-skills{
+    left: 32px;
+    width: 349px;
+  }
+  .contatos1{
+    width: 100%;
+    height: 506px;
+    box-shadow: 0px 0px 0px black;
+  }
+  .contatos2{
+    height: 637px;
+    box-shadow: 0px 0px 0px black;
+  }
+  .cards2{
+    width: 261px;
+    gap: 35px;
+    right: 10px;
+    padding: 0px;
+    top: 179px;
+    flex-direction: column;
+    left: -7px;
+  }
+  .cards1{
+    width: 261px;
+    gap: 35px;
+    right: 10px;
+    flex-direction: column;
+    top: -56px;
+    left: 33px;
+  }
+  .fixado{
+    position: relative;
+    left: -183px;
+    bottom: -480px;
+  }
+  }
