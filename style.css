@@ -1,0 +1,331 @@
+@charset "UTF-8";
+body {
+  margin: 0px;
+}
+.menu {
+  width: 100%;
+  height: 427px;
+  display: flex;
+  justify-content: center;
+}
+#foto {
+  width: 357px;
+  float: right;
+  padding-right: 51px;
+}
+#sobre {
+  max-width: 48%;
+  font-family: Montserrat, sans-serif;
+  font-size: 17px;
+  padding: 62px;
+}
+
+#sobre h2 {
+  color: red;
+}
+/*border-bottom: 1px solid #e5e5e5; */
+.cabecalho {
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+}
+.butao {
+  background-color: #e5e5e5;
+  border: 1px solid #e5e5e5;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  padding: 9px;
+  box-shadow: 1px -9px 16px 0px black;
+  text-align: initial;
+}
+.cabecalho button {
+  background-color: #e5e5e5;
+  border-radius: 5px;
+  height: 51px;
+  width: 51px;
+  border-color: red;
+  font-family: Montserrat, sans-serif;
+  color: red;
+  font-weight: 900;
+  cursor: pointer;
+}
+.cabecalho button:hover {
+  box-shadow: 0px 0 4px red;
+  color: white;
+}
+.menuseta {
+  display: flex;
+}
+#nome {
+  width: 50%;
+  float: right;
+}
+#linha {
+  width: 50%;
+  height: 21px;
+  float: left;
+  position: relative;
+  top: 53px;
+  left: -38px;
+  background-color: red;
+  border-radius: 158px;
+}
+
+h3 {
+  position: relative;
+  top: 39px;
+}
+
+li {
+  padding: 8px;
+  font-weight: 900;
+}
+li::marker {
+  color: red;
+}
+
+.fixado {
+  display: flex;
+  position: fixed;
+  left: 0.7rem;
+  bottom: -1rem;
+  flex-direction: column;
+  align-items: center;
+  width: 10px;
+}
+.fixado1 {
+  background-color: red;
+  border-radius: 15px;
+  width: 10px;
+  height: 107px;
+  margin: 0px;
+}
+.fixado-nome {
+  color: red;
+  font-family: Montserrat, sans-serif;
+  transform: rotate(270deg);
+  position: relative;
+  font-weight: 900;
+  width: 116px;
+  bottom: 53px;
+}
+.rodape {
+  font-family: Montserrat, sans-serif;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  background-color: #e5e5e5;
+  gap: 585px;
+  box-shadow: -2px 8px 16px 0px black;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #000000;
+  text-decoration: none;
+}
+
+#button-rep {
+  background-color: #e5e5e5;
+  border-radius: 5px;
+  height: 30px;
+  width: 248px;
+  border-color: red;
+  font-family: Montserrat, sans-serif;
+  color: red;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+#button-rep:hover {
+  box-shadow: 0px 0 4px red;
+}
+
+.menu2 {
+  display: flex;
+  padding: 0px 23px 50px 35px;
+  font-family: Montserrat, sans-serif;
+  gap: 13px;
+}
+
+.hrbottom {
+  box-shadow: inset 0px 0px 0px 0px grey;
+  height: 1px;
+  border-radius: 0.25rem;
+}
+
+.hrtop {
+  box-shadow: inset 0 0px 20px 0px red;
+  width: 41px;
+  height: 4px;
+  right: 172px;
+  position: relative;
+  border-radius: 0.25rem;
+}
+
+#projects {
+  width: 1245px;
+  align-items: center;
+}
+
+#projects h2 {
+  text-align: center;
+}
+
+.grid {
+  width: 100%;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 18px;
+  background-color: rgb(242, 242, 242);
+  -webkit-box-shadow: -2px 18px 23px -19px rgb(0 0 0);
+}
+
+.small1 {
+  background-position: initial;
+}
+
+li.small {
+  flex-basis: 39%;
+}
+li.large {
+  flex-basis: 48%;
+}
+
+details ::marker {
+  color: red;
+}
+
+@media (max-width: 1024px) {
+  .fixado {
+    left: 6px;
+  }
+  #nome {
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    left: -14px;
+  }
+  #foto {
+    padding-right: 30px;
+  }
+  #sobre {
+    padding: 62px;
+    position: relative;
+    bottom: 45px;
+  }
+  .rodape {
+    gap: 311px;
+    height: 63px;
+  }
+}
+@media (max-width: 768px) {
+  .menu2 {
+    padding: 0px 23px 50px 23px;
+    justify-content: space-evenly;
+  }
+  .hrtop {
+    right: 0px;
+  }
+  #projects hr:first-of-type {
+    right: 0px;
+  }
+  #button-rep {
+    width: 133px;
+    height: 43px;
+  }
+  #foto {
+    width: 269px;
+  }
+  #sobre {
+    bottom: 68px;
+    font-size: 14px;
+  }
+  .rodape {
+    gap: 81px;
+    height: 63px;
+  }
+}
+@media (max-width: 425px) {
+  .main {
+    width: 100%;
+  }
+  .cabecalho {
+    width: 100%;
+    margin: 0px;
+  }
+  .menu {
+    height: 667px;
+    flex-direction: column;
+    width: 100%;
+  }
+  .menu2 {
+    flex-direction: column;
+    padding: 0px 23px 50px 23px;
+    gap: 39px;
+  }
+  .hrtop {
+    right: 136px;
+  }
+  .hrbottom {
+    height: 0px;
+  }
+  .butao {
+    text-align: center;
+  }
+  #projects {
+    width: 336px;
+  }
+  .grid {
+    width: 336px;
+  }
+  #nome {
+    font-size: 14px;
+    width: 100%;
+    left: -69px;
+  }
+  #linha {
+    top: 34px;
+    left: -89px;
+  }
+  #foto {
+    width: 304px;
+    position: relative;
+    top: -147px;
+    left: 45px;
+  }
+  #sobre {
+    position: relative;
+    bottom: -303px;
+    padding: 0px;
+    max-width: 93%;
+    left: 16px;
+    text-align: center;
+  }
+  #sobre h2 {
+    text-align: center;
+  }
+  .rodape {
+    top: 444px;
+    gap: 27px;
+    height: 50px;
+    width: 100%;
+    top: 444px;
+    font-family: Montserrat, sans-serif;
+  }
+  .rodape p {
+    font-size: 10px;
+    position: relative;
+    left: 1px;
+  }
+
+  .fixado {
+    display: none;
+    position: relative;
+    left: 8px;
+    bottom: -480px;
+  }
+}
